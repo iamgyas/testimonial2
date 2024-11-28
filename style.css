@@ -1,0 +1,82 @@
+section.testimonial {
+background: #FFFFFF;
+}
+
+section .inner {
+max-width: 1px;
+margin: 0 0 0;
+text-align: center;
+}
+
+section.testimonial .inner {
+text-align: left;
+}
+
+section.testimonial #quote-wrapper {
+position: absolute;
+min-height: 40px;
+}
+
+section.testimonial blockquote {
+	font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+color: #666;
+font-size: 12px;
+line-height: 1.1em;
+padding-top: 1em;
+padding-left: 2em;
+position: relative;
+z-index: 1;
+margin-bottom: 0.25em;
+}
+q, blockquote {
+quotes: none;
+}
+
+section.testimonial cite {
+font-size: 10px;
+color: #595756;
+font-weight: bold;
+margin: 1em 0 0;
+  margin-left: 64px;
+}
+
+#quote-quote a {
+color: #020202;
+text-decoration: none;
+}
+
+#quote-quote a:hover {
+color: #020202;
+text-decoration: underline;
+}
+
+section.testimonial blockquote::before {
+content: "“";
+color: #E0DDD7;
+font-family: georgia, serif;
+font-size: 6em;
+position: absolute;
+left: -0.25em;
+top: 0.35em;
+z-index: -10;
+}
+
+section.testimonial #quote-wrapper .portrait {
+position: absolute;
+left: 10px;
+bottom: 0;
+}
+
+section.testimonial .quote {
+max-width: 75%;
+margin: 0 auto;
+margin-bottom: 20px;
+}
+
+section.testimonial .portrait {
+display: block;
+margin: 0 auto;
+max-width: 80%;
+background-size: 100% auto !important;
+background-position: center bottom !important;
+}
